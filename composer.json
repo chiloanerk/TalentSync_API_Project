@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4": {
+      "models\\": "models"
+    }
+  },
+    "require": {
+        "firebase/php-jwt": "^6.10",
+        "paragonie/sodium_compat": "^1.20",
+      "ext-pdo": "*"
+    }
+}
